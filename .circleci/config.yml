@@ -12,7 +12,7 @@ jobs:
       - checkout
       - aws-cli/setup
       - aws-elastic-beanstalk/setup
-      - eb/deploy:
+      - aws-elastic-beanstalk/deploy:
           context: aws-creds
           app-dir: ../udagram-api
           environment-name: Udacitynd2-env
