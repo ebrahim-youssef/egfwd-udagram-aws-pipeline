@@ -10,6 +10,5 @@
     },
     "devDependencies": {
     "@angular/cli": "^12.2.16"
-
     }
 }
