@@ -8,5 +8,8 @@
         "back-end-install":"cd udagram-api && npm install",
         "back-end-build":"cd udagram-api && npm run build"
     },
-    "devDependencies": {}
+    "devDependencies": {
+    "@angular/cli": "^12.2.16"
+
+    }
 }
