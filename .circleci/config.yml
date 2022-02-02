@@ -12,6 +12,11 @@ jobs:
       - checkout
       - aws-cli/setup
       - aws-elastic-beanstalk/setup
+      - eb/deploy:
+          context: aws-creds
+          app-dir: ../udagram-api
+          environment-name: Udacitynd2-env
+          application-name: udacity-nd-2
       - run:
           name: Front-End Install
           command: |
