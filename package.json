@@ -8,8 +8,8 @@
         "back-end-install":"cd udagram-api && npm install",
         "back-end-build":"cd udagram-api && npm run build",
         "back-end-deploy":"cd udagram-api && npm run deploy",
-        "front-end-deploy":"cd udagram-frontend && npm run deploy"
-
+        "front-end-deploy":"cd udagram-frontend && npm run deploy",
+        "setEnv":"cd udagram-api && npm run setEnv"
     },
     "devDependencies": {
     "@angular/cli": "^12.2.16"
