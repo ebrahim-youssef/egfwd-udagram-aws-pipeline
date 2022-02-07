@@ -1,0 +1,21 @@
+  default:
+    environment: Udacitynd2-env
+environment-defaults:
+  Udacitynd2-env:
+    branch: null
+    repository: null
+deploy:
+  artifact: www/Archive.zip
+global:
+  application_name: udacity-nd-2
+  # branch: main
+  default_ec2_keyname: null
+  default_platform: Node.js 14 running on 64bit Amazon Linux 2
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  sc: null
+  workspace_type: Application
