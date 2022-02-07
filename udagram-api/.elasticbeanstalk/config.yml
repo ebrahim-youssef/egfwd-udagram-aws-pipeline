@@ -1,10 +1,6 @@
 branch-defaults:
   default:
     environment: Udacitynd2-env
-      environment-defaults:
-        Udacitynd2-env:
-          branch: null
-          repository: null
 global:
   application_name: udacity-nd-2
   default_ec2_keyname: null
