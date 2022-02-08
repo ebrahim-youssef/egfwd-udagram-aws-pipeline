@@ -1,17 +1,18 @@
-#The Dependencies:
+# The Dependencies:
+
 // on which the app is build
 
 ### Front-End
 
-#### Writen using :
+#### 1- Writen using :
 
 - _**TypeScript**_ (JavaScript SuperSet)
 
-#### Front-End Framework:
+#### 2- Front-End Framework:
 
 - _**Angular**_ (User Interfaces JavaScript Framework)
 
-#### Testing
+#### 3- Testing
 
 - _**Jasmin**_ (JavaScript Testing Library)
 
