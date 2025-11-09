@@ -1,12 +1,12 @@
-# Udagram Full Stack Application
+# Udagram Full Stack Application Pipeline
 
 ## CircleCI Build Status:
 
 Click To See The Latest Builds ↓
 
-[![Ibrahim-Rezq](https://circleci.com/gh/Ibrahim-Rezq/udagram-full-stack.svg?style=svg)](https://app.circleci.com/pipelines/github/Ibrahim-Rezq/udagram-full-stack?branch=main&filter=all)
+[![Ibrahim-Rezq](https://circleci.com/gh/Ibrahim-Rezq/udagram-full-stack.svg?style=svg)](https://app.circleci.com/pipelines/github/Ibrahim-Rezq/egfwd-udagram-aws-pipeline?branch=main&filter=all)
 
-![Website Screenshot](https://github.com/Ibrahim-Rezq/udagram-full-stack/blob/main/Documentation/Screenshots/Website.png)
+![Website Screenshot](https://github.com/Ibrahim-Rezq/egfwd-udagram-aws-pipeline/blob/main/Documentation/Screenshots/Website.png)
 
 ---
 
@@ -21,17 +21,17 @@ A full-stack web application built with **Angular** frontend and **Node.js/Expre
 ### AWS RDS (Relational Database Service)
 PostgreSQL database hosting for reliable and scalable data storage.
 
-![RDS Screenshot](https://github.com/Ibrahim-Rezq/udagram-full-stack/blob/main/Documentation/Screenshots/RDS.png)
+![RDS Screenshot](https://github.com/Ibrahim-Rezq/egfwd-udagram-aws-pipeline/blob/main/Documentation/Screenshots/RDS.png)
 
 ### AWS Elastic Beanstalk
 Automated deployment and scaling for the Node.js backend API.
 
-![Elastic Beanstalk Screenshot](https://github.com/Ibrahim-Rezq/udagram-full-stack/blob/main/Documentation/Screenshots/EB_ENV.png)
+![Elastic Beanstalk Screenshot](https://github.com/Ibrahim-Rezq/egfwd-udagram-aws-pipeline/blob/main/Documentation/Screenshots/EB_ENV.png)
 
 ### AWS S3 Bucket
 Static website hosting for the Angular frontend application.
 
-![S3 Bucket Screenshot](https://github.com/Ibrahim-Rezq/udagram-full-stack/blob/main/Documentation/Screenshots/S3_bucket.png)
+![S3 Bucket Screenshot](https://github.com/Ibrahim-Rezq/egfwd-udagram-aws-pipeline/blob/main/Documentation/Screenshots/S3_bucket.png)
 
 ---
 
@@ -82,7 +82,7 @@ npm run setEnv              # Set environment variables
 
 The application uses **CircleCI** for continuous integration and deployment, automatically building and deploying both frontend and backend on every commit to the main branch.
 
-![Pipeline Diagram](https://github.com/Ibrahim-Rezq/udagram-full-stack/blob/main/Documentation/Screenshots/Pipeline_Diagram.png)
+![Pipeline Diagram](https://github.com/Ibrahim-Rezq/egfwd-udagram-aws-pipeline/blob/main/Documentation/Screenshots/Pipeline_Diagram.png)
 
 ### Deployment Flow:
 1. **Code Push** → GitHub Repository
@@ -97,7 +97,7 @@ The application uses **CircleCI** for continuous integration and deployment, aut
 
 ### System Diagram
 
-![Infrastructure Diagram](https://github.com/Ibrahim-Rezq/udagram-full-stack/blob/main/Documentation/Screenshots/Udagram_Diagram.png)
+![Infrastructure Diagram](https://github.com/Ibrahim-Rezq/egfwd-udagram-aws-pipeline/blob/main/Documentation/Screenshots/Udagram_Diagram.png)
 
 ### Components:
 - **Frontend**: Angular SPA hosted on S3
@@ -170,7 +170,7 @@ The base application was provided by **Udacity** as part of the Full Stack Nanod
 **Ibrahim Rezq**
 
 - GitHub: [@Ibrahim-Rezq](https://github.com/Ibrahim-Rezq)
-- Repository: [udagram-full-stack](https://github.com/Ibrahim-Rezq/udagram-full-stack)
+- Repository: [egfwd-udagram-aws-pipeline](https://github.com/Ibrahim-Rezq/egfwd-udagram-aws-pipeline)
 
 **Role:** DevOps Engineer & CI/CD Implementation
 
